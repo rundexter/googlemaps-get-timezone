@@ -62,8 +62,8 @@ module.exports = _.merge({
              * You should update this section with some test input for testing your module
              */
             input: {
-                //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                'location': '39.6034810,-119.6822510',
+                'timestamp': 1331161200
             }
         }
     }
