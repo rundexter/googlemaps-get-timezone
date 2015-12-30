@@ -40,5 +40,6 @@
             "title":"Status"
         }
     ],
+    "icon": "dex-gmaps",
     "title": "Google Maps Get Time Zone" /* Required.A display name for the module */
 }
