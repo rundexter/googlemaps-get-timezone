@@ -4,23 +4,41 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "location",
+            "title":"Location"
+        },
+        {
+            "id": "timestamp",
+            "title":"Timestamp"
+        },
+        {
+            "id": "language",
+            "title":"Language"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "dstOffset",
+            "title":"DST Offset"
+        },
+        {
+            "id": "rawOffset",
+            "title":"UTC Offset"
+        },
+        {
+            "id": "timeZoneId",
+            "title":"Time Zone ID"
+        },
+        {
+            "id": "timeZoneName",
+            "title":"Time Zone Name"
+        },
+        {
+            "id": "status",
+            "title":"Status"
         }
-      */
     ],
     "title": "Google Maps Get Time Zone" /* Required.A display name for the module */
 }
